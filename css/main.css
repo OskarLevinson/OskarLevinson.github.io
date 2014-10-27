@@ -141,9 +141,14 @@ li {
     max-width:100%;
     padding:0;
 }
-
-img.promo {
+.item {
     max-width: 100%;
+    height:800px;
+    background-size: cover;
+}
+
+.videofy {
+    background: url(/img/view-jpeg);
 }
 
 
