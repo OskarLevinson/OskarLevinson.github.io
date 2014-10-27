@@ -150,6 +150,7 @@ li {
 .videofy {
     background: url(/img/view-jpeg);
     background-size: cover;
+    padding-top:50px;
 }
 
 
