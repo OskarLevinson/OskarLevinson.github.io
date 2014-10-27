@@ -131,7 +131,6 @@ li {
     width:100%;
     height:50px;
     position: fixed;
-    top:0;
     z-index:999;
     background: #101010;
     color:#ffffff;
@@ -271,6 +270,7 @@ img.promo {
 @media only screen and (max-width: 767px) {
     .main-nav {
         bottom:0;
+
     }
 }
 
