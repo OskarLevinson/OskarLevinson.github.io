@@ -162,6 +162,7 @@ li {
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
      transform:scale(1.25);
+      opacity: 1;
 }
 
 .videofy {
@@ -170,10 +171,7 @@ li {
     opacity:0.5;
     z-index:2;
 }
-.videofy:hover {
-    opacity: 1;
-    -webkit-transition: 0.2s ease;
-}
+
 
 .teaser {
     z-index:3;
