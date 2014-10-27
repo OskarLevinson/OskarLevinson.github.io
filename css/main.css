@@ -45,6 +45,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Texta-Light'
 }
 
 /*
@@ -143,12 +144,12 @@ li {
 }
 .item {
     max-width: 100%;
-    height:800px;
+    height:600px;
     
 }
 
 .videofy {
-    background: url(/img/view-jpeg);
+    background: url(/img/view.jpeg);
     background-size: cover;
     padding-top:50px;
 }
