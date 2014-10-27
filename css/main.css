@@ -131,12 +131,11 @@ li {
     width:100%;
     height:50px;
     position: fixed;
-    bottom:0;
+    top:0;
     z-index:999;
     background: #101010;
     color:#ffffff;
     font-family: 'Texta-Light', sans-serif;
-
 
 }
 .content {
@@ -269,8 +268,10 @@ img.promo {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (max-width: 767px) {
+    .main-nav {
+        bottom:0;
+    }
 }
 
 @media print,
