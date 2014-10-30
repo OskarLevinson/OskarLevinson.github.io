@@ -10,6 +10,7 @@
 
 @import url("//hello.myfonts.net/count/2c66aa");
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Sansita+One);
 
 @font-face {font-family: 'Texta-Book';src: url('webfonts/2C66AA_0_0.eot');src: url('webfonts/2C66AA_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2C66AA_0_0.woff2') format('woff2'),url('webfonts/2C66AA_0_0.woff') format('woff'),url('webfonts/2C66AA_0_0.ttf') format('truetype');}
  
@@ -140,14 +141,31 @@ li {
     font-family: 'Texta-Light', sans-serif;
 
 }
+h1 {
+    font-family: 'Montserrat';
+    font-size: 82px;
+    margin-top: 20%;
+}
+p {
+    font-family: 'Montserrat';
+    font-size: 36px;
+    padding: 0 100px;
+}
 #slide-1 {
     background: #FF5254;
+    background-image: url(../img/forest.jpg);
+    background-size: cover;
     width: 100%;
     height: 100%;
+    color:#ffffff;
+    text-align:center;
 }
+
+
 
 #slide-2 {
     background: #FCB653;
+ 
     width: 100%;
     height: 100%;
 }
