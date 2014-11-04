@@ -11,10 +11,10 @@
 @import url("//hello.myfonts.net/count/2c66aa");
 @font-face {
     font-family: 'alternate_gothic_no1_dregular';
-    src: url('../webfonts/urw_-_alternategotno1d-webfont.eot');
-    src: url('../webfonts/urw_-_alternategotno1d-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../webfonts/urw_-_alternategotno1d-webfont.woff') format('woff'),
-         url('../webfonts/urw_-_alternategotno1d-webfont.ttf') format('truetype');
+    src: url('../webfonts/no1d-webfont.eot');
+    src: url('../webfonts/no1d-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../webfonts/no1d-webfont.woff') format('woff'),
+         url('../webfonts/no1d-webfont.ttf') format('truetype');
 }
 
 @font-face {font-family: 'Texta-Book';src: url('webfonts/2C66AA_0_0.eot');src: url('webfonts/2C66AA_0_0.eot?#iefix') format('embedded-opentype'),url('webfonts/2C66AA_0_0.woff2') format('woff2'),url('webfonts/2C66AA_0_0.woff') format('woff'),url('webfonts/2C66AA_0_0.ttf') format('truetype');}
@@ -150,6 +150,7 @@ h1 {
     font-family: 'alternate_gothic_no1_dregular';
     font-size: 72px;
     font-weight:700;
+    text-transform: uppercase;
     margin-top: 200px;
     padding: 0 50px;
 }
@@ -180,9 +181,8 @@ p {
     font-size: 72px;
     font-weight:700;
     line-height: 1;
-    margin-top: 200px;
+    margin-top: 300px;
     padding: 0 100px;
-    max-width: 500px;
 }
 
 
