@@ -143,8 +143,9 @@ li {
 
 }
 h1 {
-    font-family: 'nimbus-sans-condensed';
+    font-family: 'source-sans-pro';
     font-size: 72px;
+    font-weight:700;
     margin-top: 200px;
     padding: 0 50px;
 }
