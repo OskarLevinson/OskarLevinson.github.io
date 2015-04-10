@@ -105,18 +105,7 @@ a#button {
     font-size: 18px;
     margin: 0 auto;
 }
-.hot10 {
-    width: 100%;
-    background: #000;
-    color: #fff;
-}
-.hot10 h1 {
-    font-family: 'brandon_black', Helvetica, sans-serif;
-    font-size: 80px;
-    text-transform: uppercase;
-    letter-spacing: -10px;
-    text-align: center;
-}
+
 .thumb {
     position: relative;
 }
@@ -143,7 +132,9 @@ a#button {
     margin-top: -8px;
 }
 .stats {
-
+    position: absolute;
+    margin: 35px 0 0 0;
+    right:10px;
 }
 .stats img {
     display: inline-block;
@@ -154,6 +145,8 @@ a#button {
 .stats span {
     font-size: 12px;
     font-weight: 200;
+    font-family: 'brandon_bold', Helvetica, sans-serif;
+    color: #909090;
 }
 img.avatar {
     max-width: 42px;
