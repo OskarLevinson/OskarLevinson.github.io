@@ -11,7 +11,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"> </script>
+        <script src="js/hamburgler.js"> </script> 
+        <link rel="stylesheet" href="css/hamburgler.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/_fsvs.scss">
@@ -30,6 +32,26 @@
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
     <body>
+    <!-- THIS IS THE MENU --> 
+
+    <div class="mobilenav"> 
+      <li><a href="#">Never</a></li> 
+      <li><a href="#">Gonna</a></li> 
+      <li><a href="#">Give</a></li> 
+      <li><a href="#">You</a></li> 
+      <li><a href="#">Up</a></li> 
+    </div> 
+
+    <!-- THIS IS THE ICON --> 
+
+    <a href="javascript:void(0)" class="icon"> 
+       <div class="hamburger"> 
+         <div class="menui top-menu"></div> 
+         <div class="menui mid-menu"></div> 
+         <div class="menui bottom-menu"></div> 
+       </div> 
+    </a>
+    <div class="background hidden"></div>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
@@ -44,6 +66,7 @@
         </nav>
         -->
         <div id="fsvs-body" class="content">
+
             <div class="slide">
          
                 <h1>Building a video culture.</h1>
@@ -60,8 +83,6 @@
             </div>
 
         </div>
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.10.2.min.js"><\/script>')</script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
