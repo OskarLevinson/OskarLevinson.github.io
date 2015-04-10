@@ -1,0 +1,229 @@
+@font-face {
+    font-family: 'brandon_bold';
+    src: url('../fonts/Brandon_bld-webfont.eot');
+    src: url('../fonts/Brandon_bld-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Brandon_bld-webfont.woff2') format('woff2'),
+         url('../fonts/Brandon_bld-webfont.woff') format('woff'),
+         url('../fonts/Brandon_bld-webfont.ttf') format('truetype'),
+         url('../fonts/Brandon_bld-webfont.svg#brandon_grotesquebold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'brandon_black';
+    src: url('../fonts/Brandon_blk-webfont.eot');
+    src: url('../fonts/Brandon_blk-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Brandon_blk-webfont.woff2') format('woff2'),
+         url('../fonts/Brandon_blk-webfont.woff') format('woff'),
+         url('../fonts/Brandon_blk-webfont.ttf') format('truetype'),
+         url('../fonts/Brandon_blk-webfont.svg#brandon_grotesqueblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+* {
+    margin:0;
+    padding:0;
+}
+html {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #fff;
+
+}
+
+body {
+    color: #333;
+    font-size: 1em;
+    line-height: 1.4;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    background-color: #fff;
+}
+
+.video {
+    margin: 0px;
+    background-color: #fff;
+    border-radius: 4px;
+    max-width: 640px;
+    position: relative;
+}
+
+img {
+    margin:0 auto;
+    max-width:100%;
+    display: block;
+}
+
+h1 {
+    color: #333;
+    font-size: 15px;
+    font-weight: 200;
+    margin:10px 0 0 10px;
+    font-family: 'brandon_black', Helvetica, sans-serif;
+}
+h1.main {
+    color: #333;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding:10px 10px 0 10px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 30px 10px 20px 10px;
+    text-align: center;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    padding: 0 10px 10px 10px;
+    text-align: center;
+}
+
+
+a#button {
+    color:#fff;
+    background:#fc2755;
+    line-height: 70px;
+    width: 100%;
+    max-width:90%;
+    text-align: center;
+    border-radius: 4px;
+    text-decoration: none;
+    display: block;
+    font-size: 18px;
+    margin: 0 auto;
+}
+.hot10 {
+    width: 100%;
+    background: #000;
+    color: #fff;
+}
+.hot10 h1 {
+    font-family: 'brandon_black', Helvetica, sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    letter-spacing: -10px;
+    text-align: center;
+}
+.thumb {
+    position: relative;
+}
+.names {
+    display: inline-block;
+    height: 30px;
+    margin:10px 0;
+    float: left;
+}
+.name {
+    display: block;
+    color: #333;
+    font-size: 24px;
+    font-family: 'brandon_black', Helvetica, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+
+}
+.username {
+    display: block;
+    color: ##333;
+    font-size: 15px;
+    font-family: 'brandon_bold', Helvetica, sans-serif;
+    margin-top: -8px;
+}
+.stats {
+
+}
+.stats img {
+    display: inline-block;
+    max-height: 12px;
+    margin:7px 0 5px 10px;
+    vertical-align: top;
+}
+.stats span {
+    font-size: 12px;
+    font-weight: 200;
+}
+img.avatar {
+    max-width: 42px;
+    border-radius: 50%;
+    margin:10px;
+    display: inline-block;
+    float:left;
+
+}
+img.play {
+    position:absolute;
+    z-index: 99;
+    max-width: 64px;
+    top:50%;
+    left:50%;
+    -webkit-transform: translateY(-50%) translateX(-50%);
+
+}
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.spacer {
+    width: 100%;
+    height: 30px;
+}
+.divider {
+    background-color: #fff;
+    height: 1px;
+    width: 100%;
+    box-shadow: 0 0.5px 0 rgba(0,0,0,0.3);
+    margin-bottom: 1px;
+  
+}
