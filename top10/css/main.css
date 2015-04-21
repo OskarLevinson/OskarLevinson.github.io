@@ -175,8 +175,9 @@ img.play {
 
 }
 .fb-like {
-    position: absolute;
-    right:10px;
+    left: 50%;
+    margin-left: -34px;
+    padding: 10px 0;
 }
 .hidden {
     display: none !important;
