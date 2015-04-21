@@ -51,13 +51,18 @@ body {
     margin: 0px;
     background-color: #fff;
     border-radius: 4px;
-    max-width: 640px;
+    max-width: 100%;
     position: relative;
 }
-
 img {
     margin:0 auto;
     max-width:100%;
+    display: block;
+}
+
+.thumb img {
+    margin:0 auto;
+    width:100%;
     display: block;
 }
 
@@ -118,10 +123,11 @@ a#button {
 .name {
     display: block;
     color: #333;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'brandon_black', Helvetica, sans-serif;
     text-transform: uppercase;
     letter-spacing: -1px;
+    position: absolute;
 
 }
 .username {
@@ -130,11 +136,14 @@ a#button {
     font-size: 15px;
     font-family: 'brandon_bold', Helvetica, sans-serif;
     margin-top: -8px;
+    text-transform: lowercase;
+    position: absolute;
+    top: 44px;
 }
 .stats {
     position: absolute;
-    margin: 35px 0 0 0;
     right:10px;
+    top:35px;
 }
 .stats img {
     display: inline-block;
