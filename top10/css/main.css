@@ -174,8 +174,9 @@ img.play {
     -webkit-transform: translateY(-50%) translateX(-50%);
 
 }
-.fbcont {
-    height: 40px;
+.fb-like {
+    position: absolute;
+    right:10px;
 }
 .hidden {
     display: none !important;
