@@ -50,7 +50,6 @@ body {
 .video {
     margin: 0px;
     background-color: #fff;
-    border-radius: 4px;
     max-width: 100%;
     position: relative;
 }
