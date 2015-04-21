@@ -44,7 +44,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
     font-family: 'brandon_bold', Helvetica, sans-serif;
-    background-color: #000;
+    background-color: #fff;
 }
 
 .video {
@@ -90,9 +90,9 @@ h2 {
     text-align: center;
 }
 p {
-    color: #fff;
-    font-size: 18px;
-    padding:10px;
+    font-size: 15px;
+    font-weight: 400;
+    padding: 10px 0;
     text-align: center;
 }
 
@@ -176,11 +176,8 @@ img.play {
 }
 .fb-like {
     left: 50%;
-    margin-left: -100px;
+    margin-left: -34px;
     padding: 10px 0;
-}
-.pluginButton {
-    padding:10px 100px!important;
 }
 .hidden {
     display: none !important;
