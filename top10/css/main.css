@@ -176,8 +176,11 @@ img.play {
 }
 .fb-like {
     left: 50%;
-    margin-left: -34px;
+    margin-left: -100px;
     padding: 10px 0;
+}
+.pluginButton {
+    padding:10px 100px!important;
 }
 .hidden {
     display: none !important;
