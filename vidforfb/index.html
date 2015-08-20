@@ -88,6 +88,7 @@
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       console.log('Thanks for logging in, ' + response.name + '!');
+    window.location = "http://www.google.com/"
     });
   }
   FB.login(function(response) {
