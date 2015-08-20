@@ -97,12 +97,13 @@
    if (response.authResponse) {
      window.location = "http://www.google.com/"
      FB.api('/me', function(response) {
-        window.location = "http://www.google.com/"
+       console.log('Good to see you, ' + response.name + '.');
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
    }
  });
+
 </script>
 
     </head>
