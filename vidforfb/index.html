@@ -51,7 +51,7 @@
     version    : 'v2.4' // use version 2.4
   });
    FB.Event.subscribe('auth.login', function(resp) {
-        window.location = 'vidforfb/thanks.html';
+        window.location = 'http://oskarlevinson.co/vidforfb/thanks.html';
     });
 
   // Now that we've initialized the JavaScript SDK, we call 
@@ -88,16 +88,16 @@
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       console.log('Thanks for logging in, ' + response.name + '!');
-    window.location = "vidforfb/thanks.html"
+    window.location = "http://oskarlevinson.co/vidforfb/thanks.html"
     });
   }
   
   FB.login(function(response) {
    if (response.authResponse) {
-     window.location = "vidforfb/thanks.html"
+     window.location = "http://oskarlevinson.co/vidforfb/thanks.html"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
-       window.location = "vidforfb/thanks.html"
+       window.location = "http://oskarlevinson.co/vidforfb/thanks.html"
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
