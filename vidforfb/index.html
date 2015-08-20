@@ -88,16 +88,16 @@
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       console.log('Thanks for logging in, ' + response.name + '!');
-    window.location = "/thanks.html"
+    window.location = "vidforfb/thanks.html"
     });
   }
   
   FB.login(function(response) {
    if (response.authResponse) {
-     window.location = "/thanks.html"
+     window.location = "vidforfb/thanks.html"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
-       window.location = "/thanks.html"
+       window.location = "vidforfb/thanks.html"
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
