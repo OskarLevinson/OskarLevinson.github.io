@@ -40,6 +40,7 @@
   // Button.  See the onlogin handler attached to it in the sample
   // code below.
 
+
   window.fbAsyncInit = function() {
     FB._https = true;
   FB.init({
@@ -87,6 +88,7 @@
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       console.log('Thanks for logging in, ' + response.name + '!');
+    window.location = "http://www.google.com/"
     });
   }
   
@@ -95,7 +97,7 @@
      window.location = "http://www.google.com/"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
-
+       window.location = "http://www.google.com/"
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
