@@ -81,16 +81,7 @@
     js.src = "http://connect.facebook.net/en_US/sdk.js";
     fjs.parentNode.insertBefore(js, fjs);
   }(document, 'script', 'facebook-jssdk'));
-  FB.login(function(response) {
-   if (response.authResponse) {
-     window.location = "http://www.google.com/"
-     FB.api('/me', function(response) {
-       console.log('Good to see you, ' + response.name + '.');
-     });
-   } else {
-     console.log('User cancelled login or did not fully authorize.');
-   }
- });
+
   // Here we run a very simple test of the Graph API after login is
   // successful.  See statusChangeCallback() for when this call is made.
   function testAPI() {
@@ -119,6 +110,15 @@
 
     <h1>Create high quality Facebook videos in seconds.</h1>
     <p>SimpleVideo will launch fall 2015. Sign up below to be one of the first to try it out.</p>
-<div class="login" onclick="FB.login()"><span class="icon"></span><span class="label">Sign up for early access!</div>
+<div class="login" onclick="  FB.login(function(response) {
+   if (response.authResponse) {
+     window.location = "http://www.google.com/"
+     FB.api('/me', function(response) {
+       console.log('Good to see you, ' + response.name + '.');
+     });
+   } else {
+     console.log('User cancelled login or did not fully authorize.');
+   }
+ });"><span class="icon"></span><span class="label">Sign up for early access!</div>
         <script src="js/widgets.js"></script>
     </body>
