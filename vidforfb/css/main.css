@@ -58,7 +58,7 @@ p {
     transition: all 160ms ease-out;
     -webkit-transform: translateZ(0);
     opacity: .9;text-align: left;
-
+    border:none;
     }
 
     .login:hover {
@@ -66,6 +66,13 @@ p {
     }
     .login {
     	display: inline-block;
+    }
+    #mce-EMAIL {
+    	width: 250px;
+    	height: 44px;
+    	border: none;
+    	border-radius: 4px;
+    	color:#444;
     }
     .icon {
     background: url(../img/ficon.png) no-repeat center;
