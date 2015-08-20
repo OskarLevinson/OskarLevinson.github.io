@@ -39,20 +39,6 @@
   // This function is called when someone finishes with the Login
   // Button.  See the onlogin handler attached to it in the sample
   // code below.
-FB.getLoginStatus(function(response) {
-
-    if (response.status === 'connected') {
-        // Redirect to mainpage
-        window.location = 'main';
-    } else if (response.status === 'not_authorized') {
-        // Show permissions dialog
-        // and handle the response
-    } else {
-        // Redirect to homepage (with the login button displayed)
-        window.location = '/';
-   }
-
-});
 
   window.fbAsyncInit = function() {
     FB._https = true;
@@ -101,7 +87,6 @@ FB.getLoginStatus(function(response) {
     FB.api('/me', function(response) {
       console.log('Successful login for: ' + response.name);
       console.log('Thanks for logging in, ' + response.name + '!');
-    window.location = "http://www.google.com/"
     });
   }
   
@@ -110,7 +95,7 @@ FB.getLoginStatus(function(response) {
      window.location = "http://www.google.com/"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
-       window.location = "http://www.google.com/"
+
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
