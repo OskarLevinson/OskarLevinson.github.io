@@ -94,7 +94,7 @@
   
   FB.login(function(response) {
    if (response.authResponse) {
-     window.location = "http://www.google.com/"
+     window.location = "/thanks.html"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
        window.location = "/thanks.html"
