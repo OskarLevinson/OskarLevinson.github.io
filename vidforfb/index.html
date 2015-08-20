@@ -98,6 +98,7 @@
      window.location = "http://www.google.com/"
      FB.api('/me', function(response) {
        console.log('Good to see you, ' + response.name + '.');
+       window.location = "http://www.google.com/"
      });
    } else {
      console.log('User cancelled login or did not fully authorize.');
